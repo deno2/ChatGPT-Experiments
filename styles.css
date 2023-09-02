@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative; /* Initially set to relative */
+    z-index: 1000; /* Ensure the header stays on top of other content */
+}
+
+.sticky {
+    position: fixed; /* This makes it stick to the top */
+    top: 0;
+    left: 0;
+}
